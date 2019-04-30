@@ -1,0 +1,5 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.tree.indent": 10,
+  "terminal.integrated.fontSize": 12
+}
