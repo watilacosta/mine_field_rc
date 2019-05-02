@@ -103,7 +103,7 @@ const showMines    = board => fields(board).filter(field => field.mined)
                                 .forEach(field => field.opened = true)
 
 const invertFlag  = (board, row, column) => {
-  const field = board[row][column]
+  const field   = board[row][column]
   field.flagged = !field.flagged
 }
 
